@@ -451,6 +451,20 @@
             </li>
           </ul>
         </div>
+        <div class="footer-third-part">
+          <h2 class="footer-title">Подпишитесь на рассылку</h2>
+          <div class="footer-form">
+            <input
+              class="footer-input"
+              placeholder="E-mail"
+              name="user-email"
+              type="email"
+              id="footer-user-email"
+            />
+            <label for="footer-user-email"></label>
+            <button class="mailing-btn" type="submit">Подписаться</button>
+          </div>
+        </div>
       </div>
     </footer>
 
@@ -522,11 +536,16 @@
               type="checkbox"
               id="modal-check"
               name="privacy-check"
-              class="modal-check"
+              class="modal-check visually-hidden"
             />
-            <label for="modal-check" class="privacy-text">
+            <label for="modal-check" class="privacy-text"
+              ><span class="">
+                <svg class="check-icon" width="16" height="15">
+                  <use href="./images/icons.svg#icon-vector"></use>
+                </svg>
+              </span>
               Соглашаюсь с рассылкой и принимаю
-              <a class="privacy-file" href="">Условия договора</a>
+              <a class="privacy-file" href=""> Условия договора</a>
             </label>
           </div>
 
